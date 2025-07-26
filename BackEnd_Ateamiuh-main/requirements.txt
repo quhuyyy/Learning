@@ -1,0 +1,8 @@
+django
+numpy
+pandas
+djangorestframework
+django-cors-headers
+joblib
+scikit-learn
+DecisionTreeClassifier

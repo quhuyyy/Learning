@@ -1,0 +1,87 @@
+.root {
+    position: relative;
+    z-index: 0; 
+    width: 100vw; 
+    min-height: 100vh;
+}
+
+.root::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../images/nen-iuh.jpg');
+    background-size: cover;
+    background-position:top;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
+.logo {
+    height: auto;
+    width: 197px;
+}
+
+.peopleLogin {
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 129px;
+}
+
+.borderLogin {
+    width: 70%; 
+    margin: 50px auto;
+    padding: 20px 60px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.borderLogin::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: #cecfd1;
+    background-size: cover;
+    background-position:bottom;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+@media (max-width: 1200px) {
+    .borderLogin {
+        width: 70%;
+        padding: 10px 50px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .borderLogin {
+        width: 90%;
+    }
+}
+
+.loginTitle {
+    font-weight: bold;
+}
+
+.forgetPassword {
+    text-decoration: none;
+    /* margin-top: 10px !important; */
+}
+
+.buttonLogin {
+    background-color: #57b2fc !important;
+    color: #fff;
+}
+
+.buttonLogin:hover {
+    background-color: #1c96fa !important;
+    color: #fff;
+}

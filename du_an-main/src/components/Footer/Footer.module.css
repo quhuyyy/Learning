@@ -1,0 +1,30 @@
+.contact {
+    list-style-type: none;
+    text-align: start;
+    /* margin-left: 8vw; */
+}
+
+.statistical {
+    list-style-type: none;
+    text-align: start;
+    /* margin-left: 9vw; */
+}
+
+.nameTeam {
+    font-size: 20px;
+    color: rgb(255, 84, 124);
+}
+
+.root {
+    background-color: #dbeafe;
+    /* margin-left: -10px; */
+    /* max-width: 102%; */
+    margin-top: 100px !important;
+    margin-bottom: -200px;
+    /* border-radius: 10px 0 10px 0; */
+    /* width: 99vw; */
+    margin-left: -0.64em;
+    /* margin-right: 0; */
+    /* width: 101.5%; */
+    position: absolute;
+}

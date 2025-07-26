@@ -1,0 +1,133 @@
+.title {
+  height: 90px;
+  background-color: #75d1ff;
+  color: #FFF;
+  margin: 8px auto !important;
+  width: 70%;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-size: 30px;
+  /* color: #ececec; */
+}
+
+.btnPredict {
+  width: 120px;
+  height: 40px;
+  background-color: #4dc529;
+  border: none;
+  /* align-items: center !important; */
+  margin: 0 auto;
+  vertical-align: middle !important;
+  /* margin-top: -2px; */
+  margin-left: 10px;
+
+}
+
+.btnPredict:hover {
+  background-color: #34b40e !important;
+}
+
+.btnPredict:focus {
+  background-color: #34b40e !important;
+}
+
+.btnPredict:active {
+  background-color: #4dc529 !important;
+  transform: scale(0.95);
+}
+
+
+.btnAnalysis {
+  width: 120px;
+  height: 40px;
+  background-color: #f69f7f;
+  border: none;
+  /* align-items: center !important; */
+  margin: 0 auto;
+  vertical-align: middle !important;
+  margin-top: -2px;
+}
+
+.btnAnalysis:hover {
+  background-color: #fd7949;
+}
+
+.btnAnalysis:focus {
+  background-color: #fd7949;
+}
+
+.btnAnalysis:active {
+  background-color: #f69f7f !important;
+  transform: scale(0.95);
+}
+
+.frameTab {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.inputGroup {
+  background-color: #FEE4E2;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+}
+
+.inputGroup2 {
+  background-color: #D1FADF;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+}
+
+@media (max-width: 993px) {
+
+  .title {
+    width: 100% !important;
+  }
+
+  .body {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .inputGroup {
+    margin-top: 20px;
+  }
+
+  .root {
+    padding-bottom: 100px !important;
+  }
+
+  .label {
+    text-align: start !important;
+    margin-bottom: -5px;
+    margin-top: 5px;
+  }
+}
+
+.root {
+  z-index: 0;
+  padding-top: 82px !important;
+  padding-left: 10px;
+  min-height: 100vh !important;
+  background-color: #EEF5FF;
+  /* padding-bottom: 10vh !important; */
+}
+
+.body {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+@media (max-width: 1200px) {
+  .body {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+
+}
